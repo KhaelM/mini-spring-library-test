@@ -1,0 +1,11 @@
+- Créer un filtre pour vérifier si l'url contient .action. Si oui continuer sinon laisser aux autres servlets
+- Créer un servlet par lequel toutes les requetes devront passer si il n'existe pas de servlet associé à l'url càd `/`
+- Regarder dans chaque classe possédant l'annotation Controller et vérifier si l'url match le @Path
+- Regarder ce qui suit l'url (=> uri) du controller et regarder quel méthode possède le @Path de l'uri
+- Si la méthode possède @Bind alors transformer les Params en instance de la classe bindée
+- Exécuter la méthode puis aller vers la vue.
+
+Config Utilisateur:
+-indiquer le servlet framework dans web.xml
+-indiquer le dossier ou se trouve les vue .jsp
+-indiquer le package ou se trouve les controlleurs dans web.xml
