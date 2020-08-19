@@ -23,6 +23,7 @@
         <% Person michael =  (Person) request.getAttribute("personne"); %>
         <div>Nom: <%= michael.getNom() %></div>
         <div>Age: <%= michael.getAge() %></div>
-        <div>Date de Naissance: <%= michael.getDateNaissance() %></div>
+        <div>Date de Naissance: <%= michael.getDateNaissance() %></div
+        <div>Foo: ${sessionScope.Foo}</div>
     </body>
 </html>
