@@ -115,14 +115,14 @@ La valeur à retourner est le nom du fichier jsp de la vue. Par défaut les page
 Pour retourner un Json il faut que la méthode retourne un `Json` du package `core.Json` et créer puis retourner une instance de cette classe dans la définition de la méthode.
 
 - Pour modifier le contenu du json, il faut faire appel à `setData(Object objet)`
-- Pour avoir un http status code perso `setStatusCode(200)`
+- Pour avoir un http status code perso `setStatusCode(int code)`
 
 ### Passage d'objets à la vue
 
 Pour passer des objets à la vue il faut utiliser la classe `Model` du package `core.Model` et utiliser les méthodes:
 
 - `addAttribute(String cle, Object valeur)` pour placer l'objet dans la portée `request`
-- `addToSession(String cle, Object valeyr)` pour placer l'objet dans la portée `session`
+- `addToSession(String cle, Object valeur)` pour placer l'objet dans la portée `session`
 
 ### Mapping formulaire vers POJO
 
