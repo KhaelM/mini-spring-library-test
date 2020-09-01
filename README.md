@@ -4,7 +4,7 @@ Ceci est un projet S6 dans le parcours de l'IT University regroupant un framewor
 
 ## Prérequis
 
-Indiquer le servlet framework dans et le package où se trouve les controlleurs dans web.xml
+Indiquer le servlet framework et le package où se trouve les controlleurs dans web.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
