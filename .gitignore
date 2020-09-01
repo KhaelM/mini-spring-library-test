@@ -1,3 +1,7 @@
 /build
 /dist
 /nbproject/private
+.classpath
+.project
+.settings
+MANIFEST.MF
