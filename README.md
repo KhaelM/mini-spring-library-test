@@ -1,4 +1,4 @@
-# Framework: mini Spring MVC, mini Hibernate et Base de données d'Entreprise(plpgsql)
+# Framework et Base de données d'Entreprise(plpgsql)
 
 Ceci est un projet S6 dans le parcours de l'IT University regroupant un framework MVC, ORM et quelques procédure de la base de donnée Postgresql.
 
@@ -37,7 +37,7 @@ Indiquer le servlet framework dans et le package où se trouve les controlleurs 
 </web-app>
 ```
 
-Pour tester le framework, ajouter l'extension .action à la fin de chaque url.
+Pour tester le framework, ajouter l'extension _.action_ à la fin de chaque url.
 Voici des exemples de l'utilisation du framework MVC pour chaque couche.
 
 ### Controleur
