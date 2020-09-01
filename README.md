@@ -40,7 +40,7 @@ Indiquer le servlet framework et le package où se trouve les controleurs dans w
 Pour tester le framework, ajouter l'extension _.action_ à la fin de chaque url.
 Voici des exemples de l'utilisation du framework MVC pour chaque couche.
 
-### Controleur
+## Controleur
 
 ```java
 package controller;
