@@ -1,0 +1,30 @@
+Framework MVC:
+    ✔ Choisir le bon controlleur et la bonne méthode et le bon verbe HTTP @done(20-09-06 20:47)
+    ✔ Prendre des arguments de controleur dans l'url @done(20-09-06 20:47)
+    ✔ Placer des objets dans le scope request @done(20-09-06 20:47)
+    ✔ Afficher une page JSP @done(20-09-06 20:47)
+    ✔ Mapper une requête (x-www-form-urlencoded) vers un java bean @done(20-09-06 20:47)
+    ✔ Placer et effacer des objets dans le scope session @done(20-09-06 21:26)
+    ✔ Récupérer les paramètres de requêtes POST et GET @done(20-09-07 00:32)
+    ☐ Afficher Json
+
+Framework ORM:
+    ✔ find All @done(20-09-06 21:42)
+    ✔ Pagination @done(20-09-07 00:30)
+    ✔ find by Id @done(20-09-06 22:20)
+    ✔ find Multicritère (like + intervalle de date) @done(20-09-07 00:16)
+
+    OneToMany:
+        ✔ find @done(20-09-07 01:52)
+        ✔ insert @done(20-09-07 02:27)
+        ✔ update @done(20-09-07 13:33)
+    ManyToOne: 
+        ✔ find @done(20-09-07 00:46)
+        ✔ insert @done(20-09-07 02:27)
+        ✔ update @done(20-09-07 13:32)
+    ManyToMany:
+        ✔ find @done(20-09-07 01:29)
+        ✔ insert @done(20-09-07 11:09)
+        ✔ delete @done(20-09-07 14:53)
+
+    

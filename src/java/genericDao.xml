@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Si le mot de passe contient un de ces charactères spéciaux il faut les échapper.
+"   &quot;
+'   &apos;
+<   &lt;
+>   &gt;
+&   &amp;
+-->
+<databases>
+    <database>
+        <id>1</id>
+        <url>jdbc:mysql://localhost:3306/genericdao</url>
+        <username>root</username>
+        <password></password>
+    </database>
+    <database>
+        <id>2</id>
+        <url>jdbc:postgresql://127.0.0.1:5432/framework</url>
+        <username>michael</username>
+        <password>L1nux4Ever&lt;3</password>
+    </database>
+    <database>
+        <id>3</id>
+        <url>jdbc:oracle:thin:@localhost:1521:xe</url>
+        <username>michael</username>
+        <password>Avaradoha009</password>
+    </database>
+</databases>
